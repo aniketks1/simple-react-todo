@@ -1,8 +1,14 @@
+nav {
+  width: 100vw;
+  padding: 20px;
+  /* background: red; */
+}
+
 nav h1 {
-  font-size: 75px;
-  /* margin-top: 10px; */
-  letter-spacing: 2px;
-  line-height: 120px;
+  /* width: 100%; */
+  font-size: clamp(2.2rem, 5vw, 6rem);
+  margin: 20px 0;
+  /* letter-spacing: 2px; */
 
   display: flex;
   justify-content: center;

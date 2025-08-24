@@ -1,8 +1,8 @@
 import { IoIosAddCircle } from "react-icons/io";
 import "./Button.css";
-function Button({ innerText, onClick, icon }) {
+function Button({ innerText, onClick, icon, className }) {
 	return (
-		<div className="button">
+		<div className={`button ${className}`}>
 			<button onClick={onClick}>
 				{icon}
 				{innerText}

@@ -22,7 +22,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 27vw;
+  width: clamp(300px, 27vw, 600px);
   background: #3a3a3a;
   padding: 10px;
   border-radius: 5px;

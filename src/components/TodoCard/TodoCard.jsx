@@ -31,6 +31,7 @@ function TodoCard({ cardTitle, noTaskMsg, tasks, isCompleted, setIsCompleted, se
 					))}
 				</ul>
 				<Button
+					className="clear-btn"
 					icon={<MdDeleteForever />}
 					innerText="Clear All Tasks"
 					onClick={() => {

@@ -1,9 +1,15 @@
 .todo-card {
   background: #3a3a3a;
   text-align: center;
-  width: 27vw;
+  width: clamp(300px, 27vw, 600px);
+  max-height: clamp(400px, 50vh, 600px);
+  overflow-y: scroll;
   border-radius: 7px;
   padding: 20px 10px;
+}
+
+.todo-card::-webkit-scrollbar {
+  display: none;
 }
 
 .todo-card h2 {
@@ -52,4 +58,10 @@
 
 .todo-card li {
   word-break: break-word;
+}
+
+.clear-btn {
+  @media (min-width: 768px) {
+    scale: 0.7;
+  }
 }
