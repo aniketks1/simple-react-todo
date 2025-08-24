@@ -1,0 +1,11 @@
+nav h1 {
+  font-size: 75px;
+  /* margin-top: 10px; */
+  letter-spacing: 2px;
+  line-height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}

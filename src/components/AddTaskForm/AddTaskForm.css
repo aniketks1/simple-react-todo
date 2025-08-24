@@ -1,0 +1,47 @@
+.form-overlay {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.add-task-form {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: slideDown 0.5s ease forwards;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 27vw;
+  background: #3a3a3a;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 2000;
+}
+
+form h2 {
+  margin: 10px 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+form input {
+  width: 100%;
+  flex: 1;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #3a3a3a;
+  border-radius: 5px;
+  background: #4a4a4a;
+  color: #fff;
+}
